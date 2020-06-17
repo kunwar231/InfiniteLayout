@@ -11,7 +11,7 @@ open class InfiniteLayout: UICollectionViewFlowLayout {
     
     public var velocityMultiplier: CGFloat = 1 // used to simulate paging
     
-    private let multiplier: CGFloat = 500 // contentOffset multiplier
+    public let multiplier: CGFloat = 500 // contentOffset multiplier
     
     private var contentSize: CGSize = .zero
     
